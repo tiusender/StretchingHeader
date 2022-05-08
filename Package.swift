@@ -6,8 +6,10 @@ import PackageDescription
 let package = Package(
     name: "StretchingHeader",
     platforms: [
-        .iOS(.v14),
-        .macOS(.v10_10),
+        .iOS(.v13),
+        .macOS(.v10_15),
+        .tvOS(.v13),
+        .watchOS(.v6)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
